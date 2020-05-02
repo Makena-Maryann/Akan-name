@@ -15,3 +15,15 @@
   font-family: "Courier New", Courier, monospace;
   font-style: oblique;
 }
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.contacts {
+  text-align: center;
+}
