@@ -1,6 +1,25 @@
-var formula = CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD;
+var formula = function (century, year, month, day) {
+  return (
+    (century / 4 -
+      2 * century -
+      1 +
+      (5 * year) / 4 +
+      (26 * (month + 1)) / 10 +
+      day) %
+    7
+  );
+};
 
-var dayOfTheWeek = ~~formula;
+var century = parseInt(prompt("Enter century:"));
 
-var finalResult = dayOfTheWeek % 7;
-console.log(finalResult);
+var year = parseInt(prompt("Enter year:"));
+
+var month = parseInt(prompt("Enter month:"));
+
+var day = parseInt(prompt("Enter day:"));
+
+var result = formula(century, year, month, day);
+
+var dayOfTheWeek = ~~result;
+
+alert(dayOfTheWeek);
