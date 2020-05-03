@@ -29,6 +29,10 @@ ul li {
 }
 
 /*Styling for Akan.html*/
+.title {
+  text-align: center;
+}
+
 .birthday {
   position: absolute;
   left: 50%;
