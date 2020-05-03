@@ -10,10 +10,13 @@
 }
 
 .heading {
-  padding-bottom: 5px;
+  padding: 5px;
   background-color: rgba(0, 0, 0, 1);
-  font-family: "Courier New", Courier, monospace;
-  font-style: oblique;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.float {
+  float: right;
 }
 
 ul {
