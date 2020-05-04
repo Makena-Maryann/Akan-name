@@ -2,42 +2,39 @@
 
 It is an app that gives the user their Akan name.
 
-# {Application Name}
+# Akan-name
 
-#### {Brief description of application}, {Date of current version}
+#### This is an application that takes a user's birthday, calculates the day of the week they were born and gives them their Akan name depending on their gender.
 
-#### By **{List of contributors}**
+#### By **Maryann Makena**
 
 ## Description
 
-{This is a detailed description of your application, including its purpose and usage. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+In order to calculate the day of the week the user was born, the application uses a formula that requires century digits, year digits, month digits and the day of the month one was born. The user enters these details in a form and then gets their Akan name after submitting the form.
 
 ## Setup/Installation Requirements
 
-- This is a great place
-- to list setup instructions
-- in a simple
-- easy-to-understand
-- format
-  {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+- A web browser like Google Chrome is required to run this application.
 
 ## Known Bugs
 
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+There are no known bugs.
 
 ## Technologies Used
 
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+I used HTML for the initial page layout.
+I utilized Bootstrap 4 and my custom CSS stylesheet for styling.
+I used JavaScript to give the website functionality.
 
 ## Support and contact details
 
-{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}
+If any issues are encountered send me an email.
+Email address: maryann.makena00@gmail.com
 
 ## Link to live version
 
-{Provide the link}
+https://makena-maryann.github.io/Akan-name/
 
 ### License
 
-_{Determine the license under which this application can be used. See below for more details on licensing.}_
-Copyright (c) {year} **{List of contributors or company name}**
+MIT (c) 2020 Maryann Makena
