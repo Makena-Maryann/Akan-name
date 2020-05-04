@@ -10,8 +10,8 @@
 }
 
 .heading {
-  padding: 5px;
-  background-color: rgba(0, 0, 0, 1);
+  padding-bottom: 3px;
+  background-color: rgba(199, 12, 137, 1);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -27,8 +27,19 @@ ul li {
   display: inline-block;
 }
 
-.contacts {
+.about {
+  margin-top: 30px;
+}
+
+.akan {
+  background-color: rgba(199, 12, 137, 0.8);
+  color: white;
+}
+
+#contacts {
   text-align: center;
+  padding: 2px;
+  background-color: rgba(255, 22, 177, 0.8);
 }
 
 /*Styling for Akan.html*/
