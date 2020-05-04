@@ -1,9 +1,5 @@
 # Akan-name
 
-It is an app that gives the user their Akan name.
-
-# Akan-name
-
 #### This is an application that takes a user's birthday, calculates the day of the week they were born and gives them their Akan name depending on their gender.
 
 #### By **Maryann Makena**
