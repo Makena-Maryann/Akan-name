@@ -10,18 +10,20 @@ var formula = function (century, year, month, day) {
   );
 };
 
-var century = parseInt(prompt("Enter century:"));
+var century = parseInt(document.getElementById("century").value);
 
-var year = parseInt(prompt("Enter year:"));
+var year = parseInt(document.getElementById("year").value);
 
-var month = parseInt(prompt("Enter month:"));
+var month = parseInt(document.getElementById("month").value);
 
-var day = parseInt(prompt("Enter day:"));
+var day = parseInt(document.getElementById("day").value);
 
 var result = formula(century, year, month, day);
 
 var dayOfTheWeek = ~~result;
-var female = false;
+
+var gender = document.getElementById("gender").value;
+
 var femaleAkanNames = [
   "Ama",
   "Akosua",
@@ -42,52 +44,52 @@ var maleAkanNames = [
 ];
 var akanName;
 
-if (female === true) {
+if (gender == "Female") {
   switch (dayOfTheWeek) {
     case 0:
-      console.log(femaleAkanNames[0]);
+      alert(femaleAkanNames[0]);
       break;
     case 1:
-      console.log(femaleAkanNames[1]);
+      alert(femaleAkanNames[1]);
       break;
     case 2:
-      console.log(femaleAkanNames[2]);
+      alert(femaleAkanNames[2]);
       break;
     case 3:
-      console.log(femaleAkanNames[3]);
+      alert(femaleAkanNames[3]);
       break;
     case 4:
-      console.log(femaleAkanNames[4]);
+      alert(femaleAkanNames[4]);
       break;
     case 5:
-      console.log(femaleAkanNames[5]);
+      alert(femaleAkanNames[5]);
       break;
     case 6:
-      console.log(femaleAkanNames[6]);
+      alert(femaleAkanNames[6]);
       break;
   }
 } else {
   switch (dayOfTheWeek) {
     case 0:
-      console.log(maleAkanNames[0]);
+      alert(maleAkanNames[0]);
       break;
     case 1:
-      console.log(maleAkanNames[1]);
+      alert(maleAkanNames[1]);
       break;
     case 2:
-      console.log(maleAkanNames[2]);
+      alert(maleAkanNames[2]);
       break;
     case 3:
-      console.log(maleAkanNames[3]);
+      alert(maleAkanNames[3]);
       break;
     case 4:
-      console.log(maleAkanNames[4]);
+      alert(maleAkanNames[4]);
       break;
     case 5:
-      console.log(maleAkanNames[5]);
+      alert(maleAkanNames[5]);
       break;
     case 6:
-      console.log(maleAkanNames[6]);
+      alert(maleAkanNames[6]);
       break;
   }
 }

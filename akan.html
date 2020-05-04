@@ -29,31 +29,33 @@
     <!--Form-->
     <h1 class="title">Date of birth</h1>
     <div class="container birthday">
-      <form id="add">
+      <form id="weekday">
         <div class="form-group">
-          <label for="add1">Century digits</label>
-          <input id="add1" class="form-control" type="text" />
+          <label for="century">Century digits</label>
+          <input id="century" class="form-control" type="text" value="" />
         </div>
         <div class="form-group">
-          <label for="add2">Year digits</label>
-          <input id="add2" class="form-control" type="text" />
+          <label for="year">Year digits</label>
+          <input id="year" class="form-control" type="text" value="" />
         </div>
         <div class="form-group">
-          <label for="add2">Month digits</label>
-          <input id="add2" class="form-control" type="text" />
+          <label for="month">Month digits</label>
+          <input id="month" class="form-control" type="text" value="" />
         </div>
         <div class="form-group">
-          <label for="add2">Day of the month</label>
-          <input id="add2" class="form-control" type="text" />
+          <label for="day">Day of the month</label>
+          <input id="day" class="form-control" type="text" value="" />
         </div>
         <div class="form-group">
-          <select class="custom-select">
+          <select class="custom-select" id="gender">
             <option selected>Choose gender</option>
-            <option value="1">Female</option>
-            <option value="2">Male</option>
+            <option value="">Female</option>
+            <option value="">Male</option>
           </select>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary" onclick="formula();">
+          Submit
+        </button>
       </form>
       <div class="home">
         <a class="link" href="index.html">Back to home page</a>
@@ -97,5 +99,6 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/scripts.js"></script>
   </body>
 </html>
