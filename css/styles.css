@@ -53,3 +53,19 @@ ul li {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+.copyright {
+  margin-top: 448px;
+  padding: 1px;
+  text-align: center;
+  background-color: rgba(255, 22, 177, 0.8);
+}
+
+.home {
+  text-align: center;
+}
+
+.link {
+  color: black;
+  font-size: 1.5em;
+}
