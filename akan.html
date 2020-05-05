@@ -32,28 +32,27 @@
       <form id="weekday">
         <div class="form-group">
           <label for="century">Century digits</label>
-          <input id="century" class="form-control" type="text" value="" />
+          <input id="century" class="form-control" type="number" value="" />
         </div>
         <div class="form-group">
           <label for="year">Year digits</label>
-          <input id="year" class="form-control" type="text" value="" />
+          <input id="year" class="form-control" type="number" value="" />
         </div>
         <div class="form-group">
           <label for="month">Month digits</label>
-          <input id="month" class="form-control" type="text" value="" />
+          <input id="month" class="form-control" type="number" value="" />
         </div>
         <div class="form-group">
           <label for="day">Day of the month</label>
-          <input id="day" class="form-control" type="text" value="" />
+          <input id="day" class="form-control" type="number" value="" />
         </div>
         <div class="form-group">
-          <select class="custom-select" id="gender">
-            <option selected>Choose gender</option>
-            <option value="">Female</option>
-            <option value="">Male</option>
+          <select class="custom-select" id="sex">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
           </select>
         </div>
-        <button type="submit" class="btn btn-primary" onclick="formula();">
+        <button type="submit" class="btn btn-primary" onclick="identity()">
           Submit
         </button>
       </form>
