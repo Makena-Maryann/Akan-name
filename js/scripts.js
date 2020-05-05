@@ -24,6 +24,18 @@ function identity() {
   const mm = document.getElementById("month").value;
   const dd = document.getElementById("day").value;
   const gender = document.getElementById("sex").value;
+  if (
+    dd <= 0 ||
+    dd > 30 ||
+    mm <= 0 ||
+    mm > 12 ||
+    yy < 0 ||
+    yy > 99 ||
+    cc <= 0 ||
+    cc > 99
+  ) {
+    alert("Wrong format of birthday entered. Please enter the correct format.");
+  }
   var result =
     (cc / 4 - 2 * cc - 1 + (5 * yy) / 4 + (26 * (mm + 1)) / 10 + dd) % 7;
 
